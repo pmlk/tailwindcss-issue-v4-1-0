@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i src/styles.css -o dist/styles.css; cp src/index.html dist/index.html"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "4.1.0"
+  }
+}
